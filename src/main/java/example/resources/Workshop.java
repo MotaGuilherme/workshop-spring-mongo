@@ -1,19 +1,16 @@
-package org.example;
+package example.resources;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * Hello world!
- *
- */
+
 @SpringBootApplication
-public class App 
+public class Workshop
 {
 
     public static void main( String[] args )
     {
-        SpringApplication.run(App.class, args);
+        SpringApplication.run(Workshop.class, args);
 
     }
 }
